@@ -1,0 +1,157 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Page Dummy</title>
+    </head>
+
+    <body>
+        <h1><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></h1>
+        <div class="search-bar">
+            <img src="./icons8-search-30.png" alt="">
+            <input type="text">
+        </div>
+        <div class="icons">
+            <div>
+                <img src="./icons8-chrome-48.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-google-plus-squared-48.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-netflix-50.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-youtube-48.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-facebook-48.png" alt="">
+            </div>
+        </div>
+        <div class="icons">
+            <div>
+                <img src="./icons8-xbox-50.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-github-50.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-twitter-48.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-spotify-50.png" alt="">
+            </div>
+            <div>
+                <img src="./icons8-google-photos-48.png" alt="">
+            </div>
+        </div>
+    </body>
+
+    </html>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: black;
+        }
+
+        h1 {
+            font-size: 10rem;
+            font-weight: 600;
+        }
+
+        h1 span {
+            color: royalblue;
+        }
+        h1 span:nth-child(2){
+            color: rgba(17, 201, 109, 0.308);
+        }
+        h1 span:nth-child(3){
+            color: yellow;
+        }
+        h1 span:nth-child(4){
+            color: red;
+        }
+        h1 span:nth-child(5){
+            color: brown;
+        }
+        h1 span:nth-child(6){
+            color: blueviolet;
+        }
+
+        .search-bar {
+            width: 40%;
+            height: 50px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 30px;
+            padding-left: 20px;
+            margin-top: 50px;
+            font-size: 1.3rem;
+            outline: none;
+            letter-spacing: 1px;
+            motion-path: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .search-bar img{
+            margin-right: 20px;
+            width: 20px;
+        }
+
+        .search-bar input{
+            width: 500px;
+            height: 50px;
+            border: none;
+            color: black;
+            background: transparent;
+            outline: none;
+            font-size: 1.5rem;
+            line-height: 100%;
+        }
+
+        .icons {
+            width: 40%;
+            gap: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .icons div img{
+            width: 45px;
+            transition: .3s;
+        }
+
+        .icons div {
+            width: 60px;
+            height: 60px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .icons div:hover img{
+            scale: 1.1;
+        }
+
+    </style>
