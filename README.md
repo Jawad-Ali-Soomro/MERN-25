@@ -1,3 +1,6 @@
 # MERN-25
 Task Completed!
-Hello It's My Commit via cloning with help of git
+Steps:
+1:git add .
+2:git commit -m "message"
+3:git push
