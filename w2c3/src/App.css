@@ -51,3 +51,16 @@ button{
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.wrap-1{
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wrap-1 div{
+  border-radius: 50%;
+}
