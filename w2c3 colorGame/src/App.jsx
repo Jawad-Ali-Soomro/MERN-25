@@ -6,14 +6,14 @@ const App = () => {
     "blue",
     "red",
     "orange",
-    "YELLOW",
-    "INDIGO",
+    "yellow",
+    "indigo",
     "blueviolet",
     "royalblue",
     "green",
     "yellowgreen",
     "brown",
-    "#eee",
+    "beige  ",
   ]
   const [color, setColor] = useState()
   const [date, setDate] = useState(new Date().getTime())
@@ -23,10 +23,10 @@ const App = () => {
     <div className="main">
       <div className="wrap-1">
         {
-        history.map((hist) => {
-          return <div style={{ background: hist, width: '20px', height: '20px' }}></div>
-        })
-      }
+          history.map((hist) => {
+            return <div style={{ background: hist, width: '20px', height: '20px' }}></div>
+          })
+        }
       </div>
       <div className='big' style={{ background: color }}></div>
       <div className='wrap'>
@@ -36,7 +36,7 @@ const App = () => {
           })
         }
       </div>
-      <button onClick={function() {setColor(undefined); setHitory([])}}>Reset</button>
+      <button onClick={function () { setColor(undefined); setHitory([]) }}>Reset</button>
     </div>
 
   )

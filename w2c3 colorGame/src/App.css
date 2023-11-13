@@ -64,3 +64,31 @@ button{
 .wrap-1 div{
   border-radius: 50%;
 }
+
+.friends{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list, .input-sect{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-sect input{
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #eee;
+}
