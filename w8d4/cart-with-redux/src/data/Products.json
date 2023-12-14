@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Chess Set",
+    "id": 1,
+    "availability": 15,
+    "category": "Games",
+    "price": 19.99,
+    "description": "Classic board game for strategic minds."
+  },
+  {
+    "name": "Notebook",
+    "id": 2,
+    "availability": 25,
+    "category": "Stationary",
+    "price": 5.99,
+    "description": "Blank pages for notes and sketches."
+  },
+  {
+    "name": "The Great Gatsby",
+    "id": 3,
+    "availability": 10,
+    "category": "Books",
+    "price": 12.99,
+    "description": "F. Scott Fitzgerald's masterpiece."
+  },
+  {
+    "name": "Jenga",
+    "id": 4,
+    "availability": 8,
+    "category": "Games",
+    "price": 24.99,
+    "description": "Tower stacking block game."
+  },
+  {
+    "name": "Pen Set",
+    "id": 5,
+    "availability": 20,
+    "category": "Stationary",
+    "price": 7.99,
+    "description": "Assorted pens for writing and drawing."
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "id": 6,
+    "availability": 5,
+    "category": "Books",
+    "price": 14.99,
+    "description": "Harper Lee's classic novel."
+  },
+  {
+    "name": "Puzzle",
+    "id": 7,
+    "availability": 12,
+    "category": "Games",
+    "price": 29.99,
+    "description": "1000-piece jigsaw puzzle."
+  },
+  {
+    "name": "Highlighter",
+    "id": 8,
+    "availability": 30,
+    "category": "Stationary",
+    "price": 2.99,
+    "description": "Bright markers for emphasizing text."
+  },
+  {
+    "name": "Monopoly",
+    "id": 9,
+    "availability": 7,
+    "category": "Games",
+    "price": 34.99,
+    "description": "Classic real estate trading game."
+  },
+  {
+    "name": "Sticky Notes",
+    "id": 10,
+    "availability": 40,
+    "category": "Stationary",
+    "price": 3.49,
+    "description": "Colorful self-adhesive notes."
+  },
+  {
+    "name": "1984",
+    "id": 11,
+    "availability": 15,
+    "category": "Books",
+    "price": 10.99,
+    "description": "George Orwell's dystopian novel."
+  },
+  {
+    "name": "Checkers",
+    "id": 12,
+    "availability": 6,
+    "category": "Games",
+    "price": 14.99,
+    "description": "Classic strategy board game."
+  },
+  {
+    "name": "Ballpoint Pens",
+    "id": 13,
+    "availability": 25,
+    "category": "Stationary",
+    "price": 6.49,
+    "description": "Smooth writing ballpoint pens."
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "id": 14,
+    "availability": 18,
+    "category": "Books",
+    "price": 11.99,
+    "description": "J.D. Salinger's coming-of-age novel."
+  },
+  {
+    "name": "Uno",
+    "id": 15,
+    "availability": 10,
+    "category": "Games",
+    "price": 9.99,
+    "description": "Classic card game for all ages."
+  },
+  {
+    "name": "Binder Clips",
+    "id": 16,
+    "availability": 5,
+    "category": "Stationary",
+    "price": 1.99,
+    "description": "Assorted sizes of binder clips."
+  },
+  {
+    "name": "The Hobbit",
+    "id": 17,
+    "availability": 20,
+    "category": "Books",
+    "price": 16.99,
+    "description": "J.R.R. Tolkien's fantasy adventure."
+  },
+  {
+    "name": "Dominoes",
+    "id": 18,
+    "availability": 8,
+    "category": "Games",
+    "price": 12.49,
+    "description": "Classic tile-matching game."
+  },
+  {
+    "name": "Markers",
+    "id": 19,
+    "availability": 30,
+    "category": "Stationary",
+    "price": 4.99,
+    "description": "Assorted colors of markers."
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "id": 20,
+    "availability": 12,
+    "category": "Books",
+    "price": 18.99,
+    "description": "J.K. Rowling's magical adventure."
+  }
+]
